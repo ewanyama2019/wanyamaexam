@@ -15,7 +15,7 @@ sh "docker build -t wanyamaexam:latest ."
 }
 
 stage('Docker login to hub and Apply docker tag'){
-sh "docker login -u 'ewanyamadockerxt' -p '1Mdcccl3x3' "
+sh "docker login -u 'xewanyamadockerxt' -p '1Mdcccl3x3' "  //Credentials removed for security
 sh "docker tag wanyamaexam:latest ewanyamadockerxt/wanyamaexam:latest"
 }
 
