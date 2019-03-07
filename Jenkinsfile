@@ -28,6 +28,6 @@ sh "ls -l"
 }
 
 stage ('Deploy (Docker run the image'){
-sh 'bash ./index.html
+sh "docker run -d -p 3752:80/tcp wanyamaexam:latest"
 }
 }
