@@ -20,7 +20,7 @@ sh "docker tag wanyamaexam:latest ewanyamadockerxt/wanyamaexam:latest"
 }
 
 stage('push the image') {
-sh "docker push ewanyamadockerxt/wanyama:latest"
+sh "docker push ewanyamadockerxt/wanyamaexam:latest"
 }
 
 stage('Apply changes to the environment') {
